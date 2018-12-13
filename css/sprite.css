@@ -1,0 +1,21 @@
+.airjordan1 {
+  width: 830px;
+  height: 486px;
+  margin: 5% auto;
+  background: url('../img/shoe.png');
+  animation: play 8s steps(10) infinite;
+}
+
+@keyframes play {
+    100% { background-position: -8316px; }
+}
+
+a.divLink {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+  background-color: #E8F2E9;
+}

@@ -1,0 +1,373 @@
+.container {
+    position: relative;
+    left: 0px;
+    width: 1250px;
+    height: 975px;
+    /* border: 2px solid red; */
+  }
+
+.title {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 20%;
+    /* border: 2px solid red; */
+  }
+
+.aj1 {
+    position: absolute;
+    top: 7px;
+    left: 275px;
+    z-index: 1;
+  }
+
+.aj1:hover {
+  transition: all 0.4s;
+  opacity: 0.25;
+  }
+
+.spanonetwo:hover {
+  transition: all 0.4s;
+  opacity: 0.25;
+  left: -120px;
+  top: 40px;
+  width: 200px;
+  height: 200px;
+ }
+
+
+.container-three {
+  position: absolute;
+  left: 450px;
+  top: 100px;
+  width: 15%;
+  /* border: 2px solid red; */
+  animation: slideone 1.5s forwards;
+  animation-delay: 0.5s;
+  }
+
+@keyframes slideone {
+      0%   { left: 300px; opacity: 0}
+      100% { left: 450px; opacity: 1 }
+  }
+
+.container-four {
+  position: absolute;
+  top: 13px;
+  left: 710px;
+  /* border: 2px solid red; */
+  }
+
+.spantwo {
+      position: absolute;
+      top: 5px;
+      left: 275px;
+      /* border: 2px solid red; */
+  }
+
+.container-four:hover {
+      transition: all 0.4s;
+      opacity: 0.25;
+  }
+
+.container-five {
+  position: absolute;
+  left: 925px;
+  top: 100px;
+  width: 20%;
+  /* border: 2px solid red; */
+  animation: slidetwo 2.5s forwards;
+  animation-delay: 0.5s;
+  }
+
+@keyframes slidetwo {
+    0%   { left: 800px; opacity: 0}
+    100% { left: 925px; opacity: 1 }
+  }
+
+.container-six {
+  position: absolute;
+  top: 275px;
+  left: 5px;
+  width: 20%;
+  /* border: 2px solid red; */
+  animation: slidethree 2.5s forwards;
+  animation-delay: 0.7s;
+  }
+
+@keyframes slidethree {
+  0%   { left: -250px; opacity: 0}
+  100% { left: 5px; opacity: 1 }
+  }
+
+.container-seven {
+  position: absolute;
+  top: 190px;
+  left: 275px;
+  /* border: 2px solid red; */
+  }
+
+.spanthree {
+        position: absolute;
+        top: 5px;
+        left: 275px;
+        /* border: 2px solid red; */
+  }
+
+.container-seven:hover {
+        transition: all 0.4s;
+        opacity: 0.25;
+  }
+
+.container-eight {
+  position: absolute;
+  width: 20%;
+  top: 275px;
+  left: 575px;
+  /* border: 2px solid red; */
+  animation: slidefour 2.5s forwards;
+  animation-delay: 0.7s;
+  }
+
+@keyframes slidefour {
+0%   { left: 300px; opacity: 0}
+100% { left: 575px; opacity: 1 }
+  }
+
+.container-nine {
+  position: absolute;
+  top: 190px;
+  left: 850px;
+  /* border: 2px solid red; */
+  }
+
+.spanfour {
+  position: absolute;
+  top: 5px;
+  left: 275px;
+  /* border: 2px solid red; */
+  }
+
+.container-nine:hover {
+  transition: all 0.4s;
+  opacity: 0.25;
+  }
+
+.container-ten {
+  position: absolute;
+  top: 380px;
+  left: 5px;
+  /* border: 2px solid red; */
+  }
+
+.spanfive {
+  position: absolute;
+  top: 5px;
+  left: 275px;
+  /* border: 2px solid red; */
+  }
+
+.container-ten:hover {
+  transition: all 0.4s;
+  opacity: 0.25;
+  }
+
+.container-eleven {
+  position: absolute;
+  width: 20%;
+  top: 480px;
+  left: 215px;
+  /* border: 2px solid red; */
+  animation: slidefive 2.5s forwards;
+  animation-delay: 0.9s;
+ }
+
+@keyframes slidefive {
+0%   { left: -250px; opacity: 0}
+100% { left: 215px; opacity: 1 }
+ }
+
+.container-twelve {
+  position: absolute;
+  top: 380px;
+  left: 600px;
+  /* border: 2px solid red; */
+  }
+
+.spansix {
+  position: absolute;
+  top: 5px;
+  left: 275px;
+  /* border: 2px solid red; */
+  }
+
+.container-twelve:hover {
+  transition: all 0.4s;
+  opacity: 0.25;
+  }
+
+.container-thirteen {
+    position: absolute;
+    width: 20%;
+    top: 480px;
+    left: 815px;
+    /* border: 2px solid red; */
+    animation: slidesix 2.5s forwards;
+    animation-delay: 0.9s;
+  }
+
+@keyframes slidesix {
+0%   { left: 580px; opacity: 0}
+100% { left: 815px; opacity: 1 }
+  }
+
+.container-fourteen {
+    position: absolute;
+    width: 20%;
+    top: 680px;
+    left: 5px;
+    /* border: 2px solid red; */
+    animation: slideseven 2.5s forwards;
+    animation-delay: 1.1s;
+  }
+
+@keyframes slideseven {
+0%   { left: -300px; opacity: 0}
+100% { left: 5px; opacity: 1 }
+  }
+
+.container-fifhteen {
+    position: absolute;
+    top: 580px;
+    left: 290px;
+    /* border: 2px solid red; */
+  }
+
+.spanseven {
+    position: absolute;
+    top: 5px;
+    left: 275px;
+    /* border: 2px solid red; */
+  }
+
+.container-fifhteen:hover {
+    transition: all 0.4s;
+    opacity: 0.25;
+  }
+
+
+
+.container-sixteen {
+    position: absolute;
+    width: 27%;
+    top: 710px;
+    left: 530px;
+    /* border: 2px solid red; */
+    animation: slideeight 2.5s forwards;
+    animation-delay: 1.1s;
+  }
+
+@keyframes slideeight {
+0%   { left: 275px; opacity: 0}
+100% { left: 530px; opacity: 1 }
+  }
+
+.container-seventeen {
+   position: absolute;
+   top: 580px;
+   left: 890px;
+    /* border: 2px solid red; */
+  }
+
+.spaneight {
+  position: absolute;
+  top: 5px;
+  left: 275px;
+      /* border: 2px solid red; */
+  }
+
+.container-seventeen:hover {
+   transition: all 0.4s;
+   opacity: 0.25;
+  }
+
+.container-eighteen {
+   position: absolute;
+   top: 840px;
+   left: 5px;
+    /* border: 2px solid red; */
+  }
+
+.spannine {
+   position: absolute;
+   top: 5px;
+   left: 275px;
+        /* border: 2px solid red; */
+  }
+
+.container-eighteen:hover {
+   transition: all 0.4s;
+   opacity: 0.25;
+  }
+
+
+.container-nineteen {
+   position: absolute;
+   top: 910px;
+   left: 210px;
+   width: 25%;
+   /* border: 2px solid red; */
+   animation: slidenine 2.5s forwards;
+   animation-delay: 1.3s;
+  }
+
+@keyframes slidenine {
+0%   { left: -300px; opacity: 0}
+100% { left: 210px; opacity: 1 }
+  }
+
+.container-20 {
+   position: absolute;
+   top: 800px;
+   left: 645px;
+    /* border: 2px solid red; */
+  }
+
+.spanten {
+  position: absolute;
+  top: 5px;
+  left: 275px;
+  /*image*/
+  }
+
+.spanten:hover {
+    position: absolute;
+    top: 5px;
+    left: 275px;
+    /*image*/
+    }
+
+.container-20:hover {
+   transition: all 0.4s;
+   opacity: 0.25;
+   z-index: 0;
+  }
+
+.container-21 {
+   position: absolute;
+   top: 930px;
+   left: 850px;
+   width: 25%;
+   /* border: 2px solid red; */
+   animation: slideten 2.5s forwards;
+   animation-delay: 1.3s;
+}
+
+@keyframes slideten {
+0%   { left: 400px; opacity: 0}
+100% { left: 850px; opacity: 1 }
+  }
+
+body {
+    background-color: #E8F2E9;
+  }
